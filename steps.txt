@@ -1,0 +1,5 @@
+1. Define HTML elements;
+2. Style in CSS;
+
+Page's properties:
+    Font: 
