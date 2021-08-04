@@ -1,0 +1,31 @@
+/* Style the top navigation bar */
+.topnav{
+    background-color: white;
+    padding-left: 0;
+    width: 100%;
+    overflow: auto;
+    height: 50px;
+}
+
+.topnav li{
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+.topnav li:nth-child(n+3){
+    float: right;
+}
+
+.topnav li a:visited{
+    color: black;
+}
+
+.topnav li a{
+    text-decoration: none;
+}
+
+.topnav li a:hover{
+    text-decoration: underline;
+}
+
