@@ -1,22 +1,37 @@
+/* Style the whole page */
+body{
+    box-sizing: border-box;
+}
+
 /* Style the top navigation bar */
 .topnav{
-    background-color: white;
+    background-color: #ccc;
     padding-left: 0;
     width: 100%;
     overflow: auto;
-    height: 50px;
+    height: 7%;
 }
 
 .topnav li{
     display: block;
     float: left;
-    padding: 10px;
+    padding: 15 5;
+    overflow: auto;
 }
 
 .topnav li:nth-child(n+3){
     float: right;
 }
 
+/* Style the sign-in button */
+#sign-in{
+    height: 30px;
+    width: 70px;
+    background-image: url('../images/sign_in.png'); 
+    background-size: 100% 100%;
+}
+
+/* Add hover effect for the navigation links */
 .topnav li a:visited{
     color: black;
 }
@@ -29,3 +44,33 @@
     text-decoration: underline;
 }
 
+/* Add hover effect for the apps-icon */
+.topnav li a span{
+    color: grey;
+}
+
+.topnav li:nth-child(4):hover a span{
+    color: black;
+}
+
+/* Style the center */
+.center{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 82%;
+}
+
+/* Style the footer */
+.footer{
+    width: 100%;
+    height: 7%;
+    padding-left: 0;
+    background-color: #ccc;
+}
+
+.footer li{
+    display: block;
+    float: left;
+    padding: 15 5;
+}
