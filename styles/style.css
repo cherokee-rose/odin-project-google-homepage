@@ -3,19 +3,25 @@
     box-sizing: border-box;
 }
 
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'arial', 'sans-serif';
+}
+
 /* Style the top navigation bar */
 .topnav{
-    background-color: #ccc;
-    padding-left: 0;
+    padding: 8;
     width: 100%;
     overflow: auto;
     height: 7%;
+    font-size: 13;
 }
 
 .topnav li{
     display: block;
     float: left;
-    padding: 15 5;
+    padding: 15 10;
     overflow: auto;
 }
 
@@ -91,11 +97,12 @@
     margin-right: 7px;
     background-color: rgb(236, 236, 236);
     color: rgba(0, 0, 0, 0.568);
+    cursor: pointer;
 }
 
 .center button:hover{
-    box-shadow: 1px 1px 1px lightgray;
     border: 1px solid rgba(0, 0, 0, 0.103);
+    color: black;
 }
 
 #searchbox:hover{
@@ -110,12 +117,32 @@ input:focus{
 .footer{
     width: 100%;
     height: 7%;
-    padding-left: 0;
-    background-color: #ccc;
+    padding: 0;
+    background-color: rgb(240, 240, 240); 
+    border-top: 1px solid rgba(211, 211, 211, 0.5);
+    font-size: 14;
 }
 
 .footer li{
     display: block;
     float: left;
-    padding: 15 5;
+    padding: 15 15;
 }
+
+.footer li a{
+    text-decoration: none;
+    color: rgba(211, 211, 211, 0.63);
+}
+
+.footer li:nth-child(n+4){
+    float: right;
+}
+
+.footer li a:visited{
+    color: black;
+}
+
+.footer li a:hover{
+    text-decoration: underline;
+}
+
